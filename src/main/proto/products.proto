@@ -6,10 +6,10 @@ option java_package = "com.example.gen.proto";
 
 service Products {
   rpc getProduct (ProductRequest) returns (ProductResponse) {}
-  rpc getAllProducts(emptyParams) returns (MultiProductResponse) {}
+  rpc getAllProducts(EmptyParams) returns (MultiProductResponse) {}
 }
 
-message emptyParams {}
+message EmptyParams {}
 
 message ProductRequest {
   string id = 1;
