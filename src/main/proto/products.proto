@@ -12,7 +12,7 @@ service Products {
 message EmptyParams {}
 
 message ProductRequest {
-  string id = 1;
+  int32 id = 1;
 }
 
 message ProductResponse {
@@ -27,5 +27,6 @@ message MultiProductResponse {
 message Product {
   string name = 1;
   string description = 2;
+  int32 id = 3;
 }
 
