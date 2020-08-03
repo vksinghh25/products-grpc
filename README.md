@@ -12,3 +12,7 @@ Exposes one single query to return 1 single product.
 
 Add additional notes about how to deploy this on a live system.
 
+## Details
+
+1. products.proto defines that structure of the request/response and the service call. 
+2. 
